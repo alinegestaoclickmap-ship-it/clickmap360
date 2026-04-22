@@ -1,5 +1,6 @@
 {
   "type": "map",
+  "version": 1,
   "height": 10,
   "width": 10,
   "tileheight": 32,
@@ -28,12 +29,6 @@
 
     {
       "type": "objectgroup",
-      "name": "floorLayer",
-      "objects": []
-    },
-
-    {
-      "type": "objectgroup",
       "name": "start",
       "objects": [
         {
@@ -47,17 +42,17 @@
     }
   ],
 
-"tilesets": [
-  {
-    "firstgid": 1,
-    "name": "floor",
-    "tilewidth": 32,
-    "tileheight": 32,
-    "tilecount": 1,
-    "columns": 1,
-    "image": "floor.png",
-    "imagewidth": 32,
-    "imageheight": 32
-  }
-]
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "floor",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 1,
+      "columns": 1,
+      "image": "./floor.png",
+      "imagewidth": 32,
+      "imageheight": 32
+    }
+  ]
 }
