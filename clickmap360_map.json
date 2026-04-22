@@ -5,6 +5,7 @@
   "tileheight": 32,
   "tilewidth": 32,
   "orientation": "orthogonal",
+
   "layers": [
     {
       "type": "tilelayer",
@@ -24,6 +25,7 @@
         1,1,1,1,1,1,1,1,1,1
       ]
     },
+
     {
       "type": "objectgroup",
       "name": "start",
@@ -39,6 +41,7 @@
       ]
     }
   ],
+
   "tilesets": [
     {
       "firstgid": 1,
@@ -47,7 +50,7 @@
       "tileheight": 32,
       "tilecount": 1,
       "columns": 1,
-      "image": "https://tile-examples.s3.amazonaws.com/tiles/floor.png",
+      "image": "https://raw.githubusercontent.com/bjorn/tiled/master/examples/floor.png",
       "imagewidth": 32,
       "imageheight": 32
     }
