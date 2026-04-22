@@ -9,7 +9,7 @@
   "layers": [
     {
       "type": "tilelayer",
-      "name": "floorLayer",
+      "name": "floorTiles",
       "width": 10,
       "height": 10,
       "data": [
@@ -28,23 +28,22 @@
 
     {
       "type": "objectgroup",
+      "name": "floorLayer",
+      "objects": []
+    },
+
+    {
+      "type": "objectgroup",
       "name": "start",
       "objects": [
         {
           "name": "start",
-          "type": "",
           "x": 64,
           "y": 64,
           "width": 32,
           "height": 32
         }
       ]
-    },
-
-    {
-      "type": "objectgroup",
-      "name": "floorLayer",
-      "objects": []
     }
   ],
 
@@ -56,7 +55,7 @@
       "tileheight": 32,
       "tilecount": 1,
       "columns": 1,
-      "image": "https://raw.githubusercontent.com/bjorn/tiled/master/examples/floor.png",
+      "image": "https://alinegestaoclickmap-ship-it.github.io/clickmap360/floor.png",
       "imagewidth": 32,
       "imageheight": 32
     }
