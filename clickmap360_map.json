@@ -55,7 +55,7 @@
     "tileheight": 32,
     "tilecount": 1,
     "columns": 1,
-    "image": "https://alinegestaoclickmap-ship-it.github.io/clickmap360/floor.png",
+    "image": "floor.png",
     "imagewidth": 32,
     "imageheight": 32
   }
