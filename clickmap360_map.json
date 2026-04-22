@@ -1,16 +1,17 @@
 {
-  "type": "map",
-  "version": 1,
   "width": 20,
   "height": 20,
   "tilewidth": 32,
   "tileheight": 32,
   "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "version": 1,
+  "type": "map",
 
   "layers": [
     {
       "type": "tilelayer",
-      "name": "floor",
+      "name": "floorLayer",
       "width": 20,
       "height": 20,
       "data": [
@@ -40,7 +41,7 @@
 
     {
       "type": "objectgroup",
-      "name": "spawn",
+      "name": "start",
       "objects": [
         {
           "name": "spawn",
@@ -60,7 +61,7 @@
           "name": "Reunião",
           "x": 160,
           "y": 96,
-          "width": 128,
+          "width": 96,
           "height": 96,
           "properties": [
             {
@@ -77,103 +78,14 @@
   "tilesets": [
     {
       "firstgid": 1,
-      "name": "simple",
-      "tilewidth": 32,
-      "tileheight": 32,
-      "tilecount": 1,
-      "columns": 1,
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMB/6X+5ZQAAAAASUVORK5CYII=",
-      "imagewidth": 1,
-      "imageheight": 1
-    }
-  ]
-}{
-  "type": "map",
-  "version": 1,
-  "width": 20,
-  "height": 20,
-  "tilewidth": 32,
-  "tileheight": 32,
-  "orientation": "orthogonal",
-
-  "layers": [
-    {
-      "type": "tilelayer",
       "name": "floor",
-      "width": 20,
-      "height": 20,
-      "data": [
-        1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
-        1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-      ]
-    },
-
-    {
-      "type": "objectgroup",
-      "name": "spawn",
-      "objects": [
-        {
-          "name": "spawn",
-          "x": 96,
-          "y": 96,
-          "width": 32,
-          "height": 32
-        }
-      ]
-    },
-
-    {
-      "type": "objectgroup",
-      "name": "meeting",
-      "objects": [
-        {
-          "name": "Reunião",
-          "x": 160,
-          "y": 96,
-          "width": 128,
-          "height": 96,
-          "properties": [
-            {
-              "name": "url",
-              "type": "string",
-              "value": "https://meet.google.com/"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-
-  "tilesets": [
-    {
-      "firstgid": 1,
-      "name": "simple",
       "tilewidth": 32,
       "tileheight": 32,
       "tilecount": 1,
       "columns": 1,
-      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMB/6X+5ZQAAAAASUVORK5CYII=",
-      "imagewidth": 1,
-      "imageheight": 1
+      "image": "https://raw.githubusercontent.com/workadventure/map-starter-kit/main/src/assets/tilesets/floor.png",
+      "imagewidth": 32,
+      "imageheight": 32
     }
   ]
 }
